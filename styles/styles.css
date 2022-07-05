@@ -15,12 +15,17 @@ h1 {
   text-align: center;
   color: whitesmoke;
 }
-p {
+h2,
+h3 {
   font-family: 'Arima', cursive;
-
-  color: red;
+}
+h2 {
+  color: #8f140e;
+}
+h3 {
+  color: #8c3b26;
 }
 .container {
   max-width: 1440px;
-  background-color: #cba696;
+  background-color: #eed2c5;
 }
