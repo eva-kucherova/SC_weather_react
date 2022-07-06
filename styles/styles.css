@@ -10,22 +10,34 @@ html {
 }
 
 h1 {
+  text-align: center;
   font-family: 'Arima', cursive;
   font-family: 'Courgette', cursive;
-  text-align: center;
   color: whitesmoke;
 }
 h2,
-h3 {
+h3,
+h4 {
+  text-align: center;
   font-family: 'Arima', cursive;
+  color: whitesmoke;
 }
-h2 {
-  color: #8f140e;
+p {
+  font-family: 'DM Sans', sans-serif;
 }
-h3 {
-  color: #8c3b26;
+
+.text-centered {
+  text-align: center;
 }
-.container {
-  max-width: 1440px;
-  background-color: #eed2c5;
+
+.weather {
+  background: #eed2c5;
+  border: 1px solid #8f140e;
+  border-radius: 30px;
+}
+.forecast-block {
+  background: #eed2c5;
+}
+#footer-text {
+  color: whitesmoke;
 }

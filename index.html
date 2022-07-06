@@ -19,17 +19,47 @@
   </head>
   <body>
     <div class="container">
-      <h1>Life is beautiful at any season!</h1>
-      <h2>Today is Friday,</h2>
-      <h3>the 04th of July, 2022 <i class="fa-solid fa-clock"></i> 20:28</h3>
+      <header class="header">
+        <h2>Today is Friday,</h2>
+        <h3>the 04th of July, 2022 <i class="fa-solid fa-clock"></i> 20:28</h3>
+      </header>
+      <div class="search-form text-centered">
+        <input
+          type="text"
+          placeholder="Input city"
+          autocomplete="off"
+          autofocus="on"
+        />
+        <input type="submit" value="Search" />
+      </div>
 
-      <input
-        type="text"
-        placeholder="Input city"
-        autocomplete="off"
-        autofocus="on"
-      />
-      <input type="submit" value="Search" />
+      <div class="central-block">
+        <h4 class="central-header">And now in City</h4>
+        <div class="weather text-centered">
+          <p>🌞</p>
+          <p>Sunny</p>
+          <p>23° C|F</p>
+          <p>💨 4 km/h</p>
+          <p>💧 12%</p>
+        </div>
+      </div>
+
+      <div class="forecast">
+        <h4 class="forecast-header">Weather forecast for the coming days</h4>
+        <div class="forecast-block text-centered">
+          <p class="forecast-day">Monday</p>
+          <p class="forecast-icon">🌞</p>
+          <p class="forecast-tmp">23°C</p>
+          <p class="forecast-wind">💨 4 km/h</p>
+          <p class="forecast-hum">💧12%</p>
+        </div>
+      </div>
+      <div class="footer">
+        <h1>There is no bad weather when your soul smiles!</h1>
+        <p class="text-centered" id="footer-text">
+          Open-source code, by Zoia_K
+        </p>
+      </div>
     </div>
   </body>
 </html>
