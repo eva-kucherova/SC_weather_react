@@ -14,25 +14,23 @@ h1 {
   font-family: 'Arima', cursive;
   font-family: 'Courgette', cursive;
   color: whitesmoke;
+  text-shadow: 1px 2px 1px #08310d;
 }
+
 h2,
-h3,
-h4 {
+h3 {
   text-align: center;
   font-family: 'Arima', cursive;
   color: whitesmoke;
+  text-shadow: 1px 2px 1px #08310d;
 }
 p,
 span {
   font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
   color: #08310d;
 }
-p {
-  font-size: 16px;
-}
-span {
-  font-size: 20px;
-}
+
 .text-centered {
   text-align: center;
 }
@@ -40,23 +38,45 @@ span {
 .weather {
   display: inline-block;
   text-align: center;
-  padding: 28px 40px;
+  line-height: 1.25;
+  padding: 22px 36px;
   background: rgba(238, 210, 197, 0.6);
-  border: 1px solid #8f140e;
-  border-radius: 100px;
+  border: 1px solid rgb(238, 210, 197);
+  border-radius: 200px 200px 100px 100px;
+}
+.main-icon {
+  position: relative;
+  top: -16px;
 }
 .main-temp {
   font-family: 'Arima', cursive;
   font-size: 64px;
   color: #8f140e;
+  text-shadow: 2px 4px 2px rgb(238, 210, 197);
 }
 .units {
   font-size: 18px;
+  color: #8f140e;
   position: relative;
   top: -32px;
 }
+
 .forecast-block {
-  background: #eed2c5;
+  display: inline-block;
+  line-height: 0.75;
+  padding: 4px 12px;
+  background: rgba(238, 210, 197, 0.6);
+  border: 1px solid rgb(238, 210, 197);
+  border-radius: 10px;
+}
+.forecast-day {
+  font-family: 'Arima', cursive;
+  color: #8f140e;
+  text-shadow: 1px 2px 1px rgb(238, 210, 197);
+}
+.forecast-tmp {
+  font-size: 18px;
+  color: #8f140e;
 }
 #footer-text {
   color: whitesmoke;
