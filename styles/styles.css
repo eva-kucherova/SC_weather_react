@@ -31,6 +31,7 @@ p {
 }
 
 .weather {
+  display: inline-flex;
   background: #eed2c5;
   border: 1px solid #8f140e;
   border-radius: 30px;
